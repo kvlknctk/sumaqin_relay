@@ -1,0 +1,9 @@
+client
+proto udp
+remote relay.sumaqin.com {{PORT}}
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+script-security 2
+verb 3

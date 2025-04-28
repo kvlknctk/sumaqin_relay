@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+# Export klasörü yoksa oluştur
+mkdir -p /etc/openvpn/export
+
 # Execute init_pki.sh from the correct path
 /usr/local/bin/init_pki.sh
 
